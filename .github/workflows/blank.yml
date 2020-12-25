@@ -32,7 +32,7 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
         # GitHub 密钥
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN_ACTION }}
         # 发布分支
         BRANCH: gh-pages
         # 构建成果所在目录
